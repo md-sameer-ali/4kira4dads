@@ -1,0 +1,508 @@
+@media (min-width: 1420px) {
+    .container {
+        max-width: 1430px;
+    }
+}
+
+@media only screen and (max-width:1399px) {
+    .nav-ul>li {
+        margin-right: 30px;
+    }
+    .nav-ul li a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        color: var(--fade-black);
+        font-size: 26px;
+    }
+
+
+
+    /* MOBILE NAV  START*/
+    .header .nav-area {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: -600px;
+        overflow-y: auto;
+        background-color: #283a50;
+        z-index: 999;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .contact-btn .btn-two {
+        margin-right: 16px;
+    }
+
+    .header .mobi-nav-active {
+        display: block;
+        left: 0;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .nav-ul {
+        display: block;
+    }
+
+    .nav-ul>li>a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 20px;
+        width: 100%;
+        position: relative;
+        font-size: 16px;
+        border-top: 1px solid #ffffff38;
+    }
+    .nav-ul>li>a:last-child{
+        border-bottom: 1px solid #ffffff38;
+    }
+   
+
+    .nav-ul li:hover .dropdown-arrow i {
+        transform: unset;
+    }
+
+    .nav-ul>li>a.active .dropdown-arrow i {
+        transform: rotate(180deg);
+    }
+
+    .dropdown-arrow {
+        width: 45px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--theme-color);
+        color: #fff;
+        position: absolute;
+        right: 0;
+    }
+    
+    .dropdown-arrow i {
+        font-size: 16px;
+        color: #ffffff;
+    }
+    
+
+    .nav-ul li ul {
+        position: unset;
+        width: 100%;
+        margin: 0 auto;
+        display: none;
+        visibility: visible;
+        opacity: 1;
+        background-color: transparent;
+    }
+  
+
+    .nav-ul li ul li a {
+        padding: 10px 30px;
+        color: #fff;
+        border-top: 1px solid #ffffff38;
+    }
+
+    .nav-ul .dropdown-nav>a::after {
+        right: 30px;
+        font-size: 12px;
+    }
+
+    .nav-ul>li {
+        margin-right: 0;
+    }
+
+    .nav-ul li.dropdown-nav {
+        margin-right: 0;
+    }
+
+
+    .menu-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btns .t-btn {
+        padding: 5px 15px;
+        margin-left: 10px;
+    }
+
+    .wpcf7-spinner {
+        position: absolute;
+        top: 120%;
+        right: 30%;
+        transform: unset;
+    }
+
+    .nav-ul li ul {
+        box-shadow: none;
+        padding-left: 20px;
+    }
+
+    .dropdown-arrow {
+        margin-left: 5px;
+    }
+
+    .nav-ul li a:hover .dropdown-arrow i {
+        color: #fff;
+    }
+
+    
+    .mobile-nav .logo-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 20px;
+    }
+    
+    
+    .mobile-nav .logo-area i {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    /* MOBILE NAV END */
+    /* BANNER  */
+    .contact_heading_area {
+        margin-bottom: 50px;
+    }
+
+    .common_mb {
+        margin-bottom: 55px;
+    }
+
+    .common_banner_area_main {
+        padding: 200px 0 ;
+    }
+
+    .common_banner_context :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 50px;
+
+    }
+
+    .common_title_area :is(h2, h3, h4) {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .common_title_area :is(h5, h6) {
+        font-size: 18px;
+    }
+
+    .common_banner_context ul li {
+        font-size: 26px;
+    }
+    .home_banner_area_main .common_banner_area {
+        max-width: 660px;
+    }
+
+    .showcase_item_area {
+        padding: 30px 40px;
+    }
+    .small_service_showcase_area_main {
+        margin-bottom: 40px;
+    }
+
+    .kd_team_grid_item {
+        flex: 0 0 25%;
+    }
+
+
+    /* .statistics_area {
+        margin-bottom: 80px;
+    }
+
+    .testimonial_person_image {
+        margin-bottom: 30px;
+    }
+
+    .testimonial_content_area {
+        padding: 64px 55px 150px;
+    }
+
+    .testimonials_slider_wrapper .swiper-pagination {
+        width: calc(100% - 55px);
+    }
+
+    .blog_grid_wrapper {
+        column-gap: 20px;
+    } */
+
+    .footer_top_wrapper {
+        gap: 50px 30px;
+    }
+
+}
+
+@media only screen and (max-width:991px) {
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .common_banner_context :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 40px;
+    }
+    .common_banner_area_main {
+        padding: 200px 0 150px;
+    }
+    .common_padding {
+        padding: 80px 0;
+    }
+
+    .content_showcase {
+        padding-right: 0;
+    }
+    .photo_showcase_area {
+        position: unset;
+        top: unset;
+        margin-bottom: 50px;
+    }
+    .showcase_item{
+        flex: 0 0 46%;
+    }
+    .showcase_item_area {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 25px 20px;
+    }
+    .showcase_content p {
+        font-size: 14px;
+    }
+    .showcase_item img {
+        width: 56px;
+        height: 46px;
+    }
+    .campaigning_area_main {
+        padding: 50px 0;
+    }
+    .photo_and_content_showcase_wrapper {
+        padding: 50px 0;
+    }
+    .photo_and_content_showcase_wrapper .common_title_area {
+        margin-bottom: 80px;
+    }
+    .all_photo_and_content_wrapper>.row {
+        flex-wrap: wrap-reverse;
+    }
+    .all_photo_and_content_wrapper>.row:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .all_photo_and_content_wrapper>.row:nth-child(even) .content_showcase {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .kd_companies_logo_showcase {
+        gap: 45px 50px;
+    }
+    .each_company_logo img {
+        max-height: 70px;
+    }
+    .kd_team_grid_item {
+        flex: 0 0 44%;
+    }
+
+    .image_area_main img {
+        aspect-ratio: 2 / 1 ;
+    }
+
+    .cn_card_image img {
+        aspect-ratio: 3 / 1.2;
+    }
+
+    .bg_showcase_image_area {
+        display: none;
+    }
+   
+  
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    a {
+        font-size: 14px;
+    }
+
+    .common_btn {
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0 10px;
+    }
+
+    .common_padding {
+        padding: 60px 0;
+    }
+
+    .contact_heading_area {
+        margin-bottom: 30px;
+    }
+
+    .upper_header_wrapper {
+        padding: 10px 0;
+    }
+
+    .cn_contact_details a {
+        font-size: 14px;
+    }
+
+    .cn_contact_details:not(:first-child) {
+        padding-left: 16px;
+        display: none;
+    }
+
+    .header {
+        padding: 15px 0;
+    }
+
+    .menu-bar i {
+        font-size: 24px;
+    }
+    .nav-area .double_btn_wrapper{
+        padding: 0 15px;
+    }
+
+    .logo-area a img {
+        max-width: 120px;
+    }
+    .common_mb {
+        margin-bottom: 50px;
+    }
+
+    .common_banner_context :is(h1, h2, h3, h4, h5, h6) {
+        font-size: 32px;
+    }
+
+    .counter_area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .common_banner_area_main {
+        padding: 120px 0 100px;
+    }
+
+    .common_banner_context ul li {
+        font-size: 18px;
+    }
+
+    .common_banner_context ul li::before {
+        width: 25px;
+        height: 36px;
+    }
+
+    .common_banner_context ul li {
+        padding-left: 40px;
+    }
+
+    .common_banner_context ul {
+        margin-bottom: 30px;
+    }
+    .common_title_area :is(h2, h3, h4) {
+        font-size: 28px;
+    }
+    .common_title_area :is(h5, h6) {
+        font-size: 14px;
+    }
+    .common_title_area ul li::before {
+        height: 16px;
+        width: 10px;
+    }
+    .common_title_area p {
+        font-size: 16px;
+    }
+    .common_title_area ul li {
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .showcase_item {
+        flex: 0 0 100%;
+    }
+    .small_service_showcase_area_main {
+        margin-bottom: 0;
+    }
+    
+    .photo_and_content_showcase_wrapper .common_title_area {
+        margin-bottom: 50px;
+    }
+    .search_icon_area {
+        margin-right: 20px;
+    }
+
+
+    .cn_card_btn {
+        font-size: 14px;
+    }
+    .cn_card_btn i {
+        font-size: 14px;
+    }
+
+    .content_showcase ul li {
+        font-size: 14px;
+    }    
+    .content_showcase ul li::marker {
+        font-size: 20px;
+    }
+    .photo_showcase_area {
+        margin-bottom: 30px;
+    }
+    .all_photo_and_content_wrapper>.row {
+        margin-bottom: 30px;
+    }
+    .all_photo_and_content_wrapper>.row:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .common_content_area h6 {
+        font-size: 16px;
+    }    
+    .common_content_area :is(h2, h3, h4) {
+        font-size: 28px;
+    }
+    .kd_team_grid_item {
+        flex: 0 0 100%;
+    }
+    .kd_team_grid_item a img {
+        aspect-ratio: 2 / 2;
+    }
+    .general_management_wrapper .kd_team_grid_item a img {
+        aspect-ratio: 2 / 2;
+    }
+    .each_company_logo img {
+        max-height: 50px;
+    }
+
+   
+
+
+}
+
